@@ -1,12 +1,14 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Noto+Sans+KR:wght@300&display=swap');
 :root {
     --font-monospace: "Fira Mono", monospace;
+    --font-korean: 'Noto Sans KR', sans-serif;
 }
 
 body {
-    font-family: var(--font-monospace);
+    font-family: "Fira Mono", monospace, "Noto Sans KR", sans-serif;
     font-size: 16px;
     line-height: 1.5rem;
 }

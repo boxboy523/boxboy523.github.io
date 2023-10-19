@@ -2,7 +2,7 @@
 
 @import url('font.css');
 :root {
-    --font-monospace: "Fira Mono", monospace;
+    --font-monospace: "Fira Mono";
 }
 
 body {

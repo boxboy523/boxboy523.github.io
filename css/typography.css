@@ -2,7 +2,7 @@
 
 @import url('font.css');
 body {
-    font-family: "Fira Mono", monospace, "Noto Sans KR", sans-serif;
+    font-family: "Noto Sans KR", sans-serif;
     font-size: 16px;
     line-height: 1.5rem;
 }

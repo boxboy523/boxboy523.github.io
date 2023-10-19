@@ -1,8 +1,12 @@
 /* Fonts */
 
 @import url('font.css');
+:root {
+    --font-monospace: "Fira Mono", monospace;
+}
+
 body {
-    font-family: "Noto Sans KR";
+    font-family: var(--font-monospace);
     font-size: 16px;
     line-height: 1.5rem;
 }

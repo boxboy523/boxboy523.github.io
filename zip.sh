@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 HW_NUM=$1
-STUDENT_NAME=$2
+STUDENT_NAME1=$2
+STUDENT_NAME2=$3
+STUDENT_NAME3=$4
 
-zip "hw${HW_NUM}_${STUDENT_NAME}".zip "hw$HW_NUM".html "src/hw$HW_NUM".js
+zip "hw${HW_NUM}_${STUDENT_NAME1}_${STUDENT_NAME2}_${STUDENT_NAME3}".zip "hw$HW_NUM".html "src/hw$HW_NUM".js

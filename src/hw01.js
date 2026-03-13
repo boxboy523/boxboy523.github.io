@@ -15,9 +15,6 @@ var len_h = canvas.height / 2;
 gl.viewport(0, 0, canvas.width, canvas.height);
 gl.clearColor(0.1, 0.2, 0.3, 1.0);
 
-// Start rendering
-render();
-
 // Render loop
 function render() {
     gl.enable(gl.SCISSOR_TEST);
@@ -36,7 +33,10 @@ function render() {
     gl.disable(gl.SCISSOR_TEST);
 }
 
+// Start rendering
+render();
 
+// Handle window resize events to adjust the canvas size and viewport
 window.addEventListener('resize', () => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
